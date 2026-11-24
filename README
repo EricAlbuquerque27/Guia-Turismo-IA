@@ -1,21 +1,21 @@
-# 🌴 Guia Turismo IA (Ceará)
+ 🌴 Guia Turismo IA 
 
-## 📌 O Problema
+ 📌 O Problema
 Turistas que visitam o Ceará, especialmente Fortaleza, muitas vezes têm pouco tempo ou orçamento limitado. Eles perdem horas pesquisando onde ir, o que comer e quanto vão gastar, e acabam caindo em roteiros genéricos ou armadilhas turísticas caras.
 
-## 💡 A Solução (O MVP)
-O **Guia Turismo IA** é um aplicativo que resolve esse problema. O usuário digita suas preferências (ex: "1 dia livre, R$ 50, gosto de praia") e a Inteligência Artificial gera um roteiro personalizado, com horários, locais e custos estimados. A resposta é processada e exibida de forma amigável, além de estar disponível em formato **JSON** para fácil integração com outras plataformas.
+ 💡 A Solução (O MVP)
+O Guia Turismo IA é um aplicativo que resolve esse problema. O usuário digita suas preferências (ex: "1 dia livre, R$ 50, gosto de praia") e a Inteligência Artificial gera um roteiro personalizado, com horários, locais e custos estimados. A resposta é processada e exibida de forma amigável, além de estar disponível em formato **JSON** para fácil integração com outras plataformas.
 
-## 🛠️ Tecnologias Utilizadas
-*   **Linguagem:** Python 3.x
-*   **API de LLM:** OpenAI SDK (estruturado para Gemini, DeepSeek ou Groq)
-*   **Bibliotecas:** `openai`, `python-dotenv`, `streamlit`
-*   **Arquitetura:** System Prompt separado do User Prompt, saída estruturada em JSON, controle de tokens e modo simulado para testes sem custo.
+ 🛠️ Tecnologias Utilizadas
+*   Linguagem: Python 3.x
+*   API de LLM: OpenAI SDK (estruturado para Gemini, DeepSeek ou Groq)
+*   Bibliotecas: openai, python-dotenv, streamlit
+*   Arquitetura: System Prompt separado do User Prompt, saída estruturada em JSON, controle de tokens e modo simulado para testes sem custo.
 
-## 🚀 Como Rodar o Projeto
+ 🚀 Como Rodar o Projeto
 Siga os passos abaixo para rodar o projeto na sua máquina:
 
-1. **Clone o repositório:**
-   ```bash
+1. Clone o repositório:
+   
    git clone https://github.com/EricAlbuquerque27/Guia-Turismo-IA
    cd guia-turismo-ia
